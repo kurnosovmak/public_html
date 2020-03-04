@@ -1,0 +1,72 @@
+header {
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 376px) {
+  #phone-version #menu {
+    width: 315px;
+    padding-top: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+  }
+
+  #phone-version #menu .menu-block div {
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 7px rgba(0,0,0,0.3);
+  }
+
+  #phone-version #menu #roulette div {
+    background: linear-gradient(45deg, #FC7D7B 0%, #8E78FF 100%);
+  }
+
+  #phone-version #menu #roulette img {
+    width: 55px;
+    height: 55px;
+  }
+
+  #phone-version #menu #poker div {
+    background: linear-gradient(45deg, #48C6EF 0%, #1A47E4 100%);
+  }
+
+  #phone-version #menu #poker img {
+    width: 60px;
+    height: 60px;
+  }
+
+  #phone-version #menu #twenty-one div {
+    background: linear-gradient(45deg, #F7D550 0%, #18947C 100%);
+  }
+
+  #phone-version #menu #twenty-one img {
+    width: 79px;
+    height: 79px;
+  }
+
+  #phone-version #menu #h-g div {
+    background: linear-gradient(45deg, #FB872B 0%, #D9E021 100%);
+  }
+
+  #phone-version #menu #h-g img {
+    width: 71px;
+    height: 71px;
+  }
+
+  #phone-version #menu .menu-block {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  #phone-version #menu span {
+    color: #3B3B3B;
+    font-size: 14px;
+    font-family: SFProText-Semi;
+  }
+}

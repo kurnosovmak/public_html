@@ -1,0 +1,132 @@
+@media screen and (max-width: 441px) {
+	#phone-version #rate {
+		background: linear-gradient(45deg, rgba(68,129,235,1) 0%, rgba(4,190,254,1) 100%);
+		border-radius: 10px;
+		color: #ffffff;
+		margin: 17px auto 0 auto;
+		width: 100%;
+	}
+
+	#phone-version #rate #rateHeader {
+		padding: 12px 0 0 15px;
+	}
+
+	#phone-version #rate #sellRate {
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		padding: 3px 0 12px 0;
+	}
+
+	#phone-version #rate #sellRate img {
+		height: 15px;
+		margin: 0 5px 0 4px;
+		width: 15px;
+	}
+
+	#phone-version #preview {
+		margin: 20px auto;
+		width: 100%;
+	}
+
+	#phone-version #preview input {
+		background: inherit;
+		border: solid 1px #707070;
+		border-radius: 10px;
+		height: 20px;
+		overflow: hidden;
+		padding: 10px;
+  	resize: none;
+  	width: 92.5%;
+	}
+
+	#phone-version #preview #coins {
+		margin-bottom: 10px;
+	}
+
+	#phone-version #selectedItem {
+		align-items: center;
+		background:  #fcfcfc;
+		border: solid 1px #4481EB;
+		border-radius: 10px;
+		color: #4481EB;
+		display: flex;
+		height: 42px;
+		justify-content: space-between;
+		margin: -1px 0 0 -1px;
+		padding: 0 15px;
+		position: absolute;
+		width: 90.5%;
+		z-index: 3;
+	}
+
+	#phone-version #selectedItem img {
+		height: 20px;
+		width: 20px;
+	}
+
+	#phone-version #method {
+		background: inherit;
+		border: solid 1px #4481EB;
+		border-radius: 10px;
+		color: #4481EB;
+		height: 40px;
+		margin: 0 auto;
+		overflow: hidden;
+		position: relative;
+		transition: height ease-in-out 0.5s;
+		width: 100%;
+		z-index: 2;
+	}
+
+	#phone-version #method #first-element {
+		align-items: center;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#phone-version #method img {
+		height: 20px;
+		transition: all ease-in-out 0.5s;
+		width: 20px;
+	}
+
+	#phone-version #method ul {
+		list-style: none;
+		margin: 22px 0 15px 0;
+		padding: 0 15px;
+	}
+
+	#phone-version #method ul li {
+		margin-bottom: 11px;
+	}
+
+	#phone-version #button {
+		text-align: center;
+		top: 40%;
+		width: 100%;
+		z-index: 1;
+	}
+}
+
+@media screen and (min-width: 378px) and (max-width: 441px) {
+	#phone-version #selectedItem {
+		width: 91.3%;
+	}
+
+	#phone-version #method {
+		width: auto;
+	}
+}
+
+.nightMode #phone-version #preview input {
+	border-color: #ffffff;
+}
+
+.nightMode #phone-version #selectedItem {
+	background: #0D0D0D;
+}
+
+.nightMode #phone-version #preview input::-webkit-input-placeholder {
+	color: #ffffff;
+}

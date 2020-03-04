@@ -1,0 +1,38 @@
+@media screen and (max-width: 441px) {
+  #phone-version #transferInfo {
+    margin: 0 auto;
+    padding-top: 5px;
+    width: 100%;
+  }
+
+  #phone-version #transferInfo .partOfList {
+    margin: 12px 0;
+  }
+
+  #phone-version #transferInfo .infoName {
+    margin-bottom: 5px;
+  }
+
+  #phone-version .numOfCoins {
+    align-items: center;
+    display: flex;
+  }
+
+  #phone-version .numOfCoins img {
+    height: 15px;
+    margin-left: 5px;
+    width: 15px;
+  }
+
+  #phone-version #button {
+    margin-top: 70px;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 299px) and (max-width: 341px) {
+  #phone-version #button {
+    margin-top: 0;
+  }
+}

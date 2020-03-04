@@ -1,0 +1,29 @@
+@media screen and (max-width: 441px) {
+  #phone-version #shopList {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  #phone-version .partOfList {
+    align-items: center;
+    display: flex;
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  #phone-version .productPhoto {
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    overflow: hidden;
+    width: 40px;
+  }
+
+  #phone-version .nameOfProduct {
+    margin-left: 15px;
+  }
+
+  #phone-version .productPhoto img {
+    width: 100%;
+  }
+}

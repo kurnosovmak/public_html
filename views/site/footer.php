@@ -1,0 +1,7 @@
+<footer>
+    <a href="<?=Yii::$app->getUrlManager()->createUrl(['site/index']);?>"><img class="black" src="style/images/svg/home<?php if("index"==$ft) echo "-selected";?>.svg" alt=""><img class="white" src="style/images/svg/home-white<?php if("index"==$ft) echo "-selected";?>.svg" alt=""></a>
+    <a href="<?=Yii::$app->getUrlManager()->createUrl(['site/games']);?>"><img class="black" src="style/images/svg/games<?php if("games"==$ft) echo "-selected";?>.svg" alt=""><img class="white" src="style/images/svg/games-white<?php if("games"==$ft) echo "-selected";?>.svg" alt=""></a>
+    <a href="<?=Yii::$app->getUrlManager()->createUrl(['site/miner']);?>"><img class="black" src="style/images/svg/mining<?php if("miner"==$ft) echo "-selected";?>.svg" alt=""><img class="white" src="style/images/svg/mining-white<?php if("miner"==$ft) echo "-selected";?>.svg" alt=""></a>
+    <a href="<?=Yii::$app->getUrlManager()->createUrl(['site/topchar']);?>"><img class="black" src="style/images/svg/statistic<?php if("topchar"==$ft) echo "-selected";?>.svg" alt=""><img class="white" src="style/images/svg/statistic-white<?php if("topchar"==$ft) echo "-selected";?>.svg" alt=""></a>
+</footer>
+<?php if("index"!=$ft) echo "";?>

@@ -1,0 +1,79 @@
+/*------------------------------------------------------
+ * [List of content elements]
+ *
+ * 1.Some Changes for Iphone 6/7/8 Plus
+ * 2.Some Changes for Iphone 6/7/8
+ * 3.Some Changes for Iphone 5/SE
+ *
+ *-------------------------------------------------------*/
+
+/*------------------- 1.Some Changes for Iphone 6/7/8 Plus -------------------*/
+@media screen and (min-width: 378px) and (max-width: 441px) {
+  header {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  #phone-version {
+    margin: 0 auto;
+    width: 340px;
+  }
+
+  .menuBlock {
+    height: 105px;
+    width: 155px;
+  }
+
+  header img {
+    padding: 0 30px;
+  }
+
+}
+
+/*------------------- 2.Some Changes for Iphone 6/7/8 -------------------*/
+@media screen and (min-width: 342px) and (max-width: 377px) {
+  header {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  #phone-version {
+    margin: 0 auto;
+    width: 315px;
+  }
+
+  header img {
+    padding: 0 30px;
+  }
+}
+
+/*------------------- 3.Some Changes for Iphone 5/SE -------------------*/
+@media screen and (min-width: 299px) and (max-width: 341px) {
+  header {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  #phone-version {
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 280px;
+  }
+
+  .menuBlock {
+    height: 90px;
+    width: 130px;
+  }
+
+  header span {
+    font-size: 16px;
+  }
+
+  header img {
+    padding: 0 20px;
+  }
+
+  footer img {
+    width: 22px;
+  }
+}

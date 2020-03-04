@@ -1,0 +1,25 @@
+@media screen and (max-width: 441px) {
+  #phone-version {
+    width: auto;
+  }
+
+  #phone-version #image {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  #phone-version img {
+    height: 200px;
+    margin: auto;
+    opacity: 0.7;
+    width: 200px;
+  }
+}
+
+.nightMode #phone-version img {
+  opacity: 1;
+}

@@ -1,0 +1,111 @@
+@media screen and (max-width: 441px) {
+  #phone-version #account {
+    padding-top: 17px;
+    text-align: center;
+  }
+
+  #phone-version #account #numberOfCoins {
+    padding: 5px 0;
+  }
+
+  #phone-version #account img {
+    height: 28px;
+    margin: 0 auto;
+    width: 28px;
+  }
+
+  #phone-version #menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 100%;
+  }
+
+  #phone-version #menu .block div {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6px;
+  }
+
+  #phone-version #menu #buy div {
+    background: linear-gradient(45deg, rgba(252,238,33,1) 0%, rgba(0,146,69,1) 100%);
+  }
+
+  #phone-version #menu #sell div {
+    background: linear-gradient(45deg, rgba(251,176,59,1) 0%, rgba(212,20,90,1) 100%);
+  }
+
+  #phone-version #menu #change div {
+    background: linear-gradient(45deg, rgba(0,255,238,1) 0%, rgba(213,133,255,1) 100%);
+  }
+
+  #phone-version #menu #shop div {
+    background: linear-gradient(45deg, rgba(147,249,185,1) 0%, rgba(29,151,108,1) 100%);
+  }
+
+  #phone-version #menu .block img {
+    width: 35%;
+  }
+
+  #phone-version #menu .block {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  #phone-version #stories {
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  #phone-version #stories #listOfTransactions {
+    padding-top: 20px;
+  }
+
+  #phone-version #stories #emptyStories {
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+  }
+
+  #phone-version #stories .operation {
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: left;
+    width: 100%;
+  }
+
+  #phone-version #stories .operation img {
+    height: 15px;
+    width: 15px;
+  }
+
+  #phone-version #stories .operation .nameOfOperation {
+    margin-left: 20px;
+  }
+
+  #phone-version #stories .operation .nameOfOperation div {
+    align-items: center;
+    display: flex;
+  }
+
+  #phone-version #stories .operation .nameOfOperation img {
+    margin-left: 5px;
+  }
+
+  #phone-version #stories .operation .stateOfAccount span {
+    color: #A8A7A7;
+  }
+
+  #phone-version #stories .operation .stateOfAccount img {
+    opacity: 0.45;
+  }
+}
+
+.nightMode {
+  color: #ffffff;
+}

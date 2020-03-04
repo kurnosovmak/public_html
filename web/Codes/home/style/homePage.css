@@ -1,0 +1,142 @@
+@media screen and (max-width: 376px) {
+  #phone-version a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  #phone-version #account {
+    text-align: center;
+    padding-top: 17px;
+  }
+
+  #phone-version #account :nth-child(1) {
+    color: #707070;
+    font-family: SFProText-Semi;
+  }
+
+  #phone-version #account #numberOfCoins {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #000000;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  #phone-version #account img {
+    width: 28px;
+    height: 28px;
+  }
+
+  #phone-version #menu {
+    width: 315px;
+    padding-top: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+  }
+
+  #phone-version #menu .menu-block div {
+    width: 142.5px;
+    height: 100px;
+    border-radius: 10px;
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 7px rgba(0,0,0,0.3);
+  }
+
+  #phone-version #menu #buy div {
+    background: linear-gradient(45deg, rgba(252,238,33,1) 0%, rgba(0,146,69,1) 100%);
+  }
+
+  #phone-version #menu #sell div {
+    background: linear-gradient(45deg, rgba(251,176,59,1) 0%, rgba(212,20,90,1) 100%);
+  }
+
+  #phone-version #menu #change div {
+    background: linear-gradient(45deg, rgba(0,255,238,1) 0%, rgba(213,133,255,1) 100%);
+  }
+
+  #phone-version #menu #shop div {
+    background: linear-gradient(45deg, rgba(147,249,185,1) 0%, rgba(29,151,108,1) 100%);
+  }
+
+  #phone-version #menu .menu-block img {
+    width: 35%;
+  }
+
+  #phone-version #menu .menu-block {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  #phone-version #menu span {
+    color: #3B3B3B;
+    font-size: 14px;
+    font-family: SFProText-Semi;
+  }
+
+  #phone-version #stories {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  #phone-version #stories #storiesTitle {
+    font-size: 18px;
+    color: #707070;
+    font-family: SFProText-Semi;
+  }
+
+    #phone-version #stories #listOfTransactions {
+      padding-top: 20px;
+    }
+
+  #phone-version #stories #emptyStories {
+    text-align: center;
+    width: 210px;
+    margin: 0 auto;
+  }
+
+  #phone-version #stories #emptyStories span {
+    color: #3B3B3B;
+  }
+
+  #phone-version #stories .operation {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 315px;
+    padding: 10px 0;
+    border-bottom: solid 1px rgba(112,112,112,0.1);
+    margin: 0 auto;
+  }
+
+  #phone-version #stories .operation img {
+    width: 15px;
+    height: 15px;
+  }
+
+  #phone-version #stories .operation .nameOfOperation {
+    margin-left: 20px;
+  }
+
+  #phone-version #stories .operation .nameOfOperation div {
+    display: flex;
+    align-items: center;
+  }
+
+  #phone-version #stories .operation .nameOfOperation img {
+    margin-left: 5px;
+  }
+
+  #phone-version #stories .operation .stateOfAccount span {
+    font-size: 14px;
+    color: #A8A7A7;
+  }
+
+  #phone-version #stories .operation .stateOfAccount img {
+    opacity: 0.45;
+  }
+}

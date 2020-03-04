@@ -1,0 +1,140 @@
+@media screen and (max-width: 376px) {
+  #phone-version #settings {
+    width: 315px;
+    padding-top: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+  }
+
+  #phone-version #settings .settings-block div {
+    width: 142.5px;
+    height: 100px;
+    border: solid 1px #707070;
+    border-radius: 10px;
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 7px rgba(0,0,0,0.3);
+  }
+
+  #phone-version #settings .settings-block img {
+    width: 35%;
+  }
+
+  #phone-version #settings .settings-block {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  #phone-version #settings span {
+    color: #3B3B3B;
+    font-size: 14px;
+    font-family: SFProText-Semi;
+  }
+
+  #phone-version #settings .nightOn div {
+    border: solid 1px #04BEFE;
+  }
+
+  #phone-version #settings .soundOn div {
+    border: solid 1px #04BEFE;
+  }
+
+  #phone-version #settings .nightOff #nightFImg {
+    display: block;
+  }
+
+  #phone-version #settings .nightOff #nightSImg {
+    display: none;
+  }
+
+  #phone-version #settings .nightOn #nightFImg {
+    display: none;
+  }
+
+  #phone-version #settings .nightOn #nightSImg {
+    display: block;
+  }
+
+  #phone-version #settings .soundOff #soundFImg {
+    display: block;
+  }
+
+  #phone-version #settings .soundOff #soundSImg {
+    display: none;
+  }
+
+  #phone-version #settings .soundOn #soundFImg {
+    display: none;
+  }
+
+  #phone-version #settings .soundOn #soundSImg {
+    display: block;
+  }
+
+  #phone-version #aboutUs {
+    width: 315px;
+    margin: auto;
+  }
+
+  #phone-version #aboutUsHeader {
+    font-size: 18px;
+    font-family: SFProText-Semi;
+    padding-bottom: 20px;
+  }
+
+  #phone-version #aboutUsList .lineInList {
+    margin: auto;
+    width: 285px;
+    border-bottom: solid 1px rgba(112,112,112,0.2);
+    margin-bottom: 10px;
+  }
+
+  #phone-version #aboutUsList .partOfList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+
+  #phone-version #aboutUsList a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  #phone-version #aboutUsList .partOfList img {
+    width: 17px;
+    height: 17px;
+    transform: rotate(-90deg);
+  }
+
+  #phone-version #version {
+    width: 315px;
+    text-align: center;
+    margin: auto;
+  }
+
+  #phone-version #version span {
+    color: #707070;
+    font-size: 14px;
+  }
+
+  footer {
+    background-color: #ffffff;
+    width: 100%;
+    position: fixed;
+    border-top: solid 0.4px rgba(0,0,0,0.7);
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+  }
+
+  footer img {
+    margin: 17.5px 0;
+    width: 25px;
+  }
+}

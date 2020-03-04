@@ -1,0 +1,62 @@
+header {
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 441px) {
+  #phone-version #menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 15px;
+    width: 100%;
+  }
+
+  #phone-version #menu .block div {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6px;
+  }
+
+  #phone-version #menu #roulette div {
+    background: linear-gradient(45deg, #FC7D7B 0%, #8E78FF 100%);
+  }
+
+  #phone-version #menu #roulette img {
+    height: 55px;
+    width: 55px;
+  }
+
+  #phone-version #menu #poker div {
+    background: linear-gradient(45deg, #48C6EF 0%, #1A47E4 100%);
+  }
+
+  #phone-version #menu #poker img {
+    height: 55px;
+    width: 55px;
+  }
+
+  #phone-version #menu #twenty-one div {
+    background: linear-gradient(45deg, #F7D550 0%, #18947C 100%);
+  }
+
+  #phone-version #menu #twenty-one img {
+    height: 79px;
+    width: 79px;
+  }
+
+  #phone-version #menu #h-g div {
+    background: linear-gradient(45deg, #FB872B 0%, #D9E021 100%);
+  }
+
+  #phone-version #menu #h-g img {
+    height: 71px;
+    width: 71px;
+  }
+
+  #phone-version #menu .block {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+}

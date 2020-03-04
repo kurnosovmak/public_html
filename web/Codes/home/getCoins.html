@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quick Coins</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <!-- Main Icon -->
+    <link rel="icon" href="../style/images/png/main-icon.png">
+    <!-- Theme styles -->
+    <link rel="stylesheet" href="../style/css/global.css">
+    <link rel="stylesheet" href="../style/css/home/getCoins.css">
+    <link rel="stylesheet" href="../style/css/cross-platform.css">
+    <link rel="stylesheet" href="../style/css/nightMode.css">
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div id="page-preloader" class="preloader">
+      <div class='sk-three-bounce' id="loader">
+        <div class='sk-bounce-1 sk-child'></div>
+        <div class='sk-bounce-2 sk-child'></div>
+        <div class='sk-bounce-3 sk-child'></div>
+      </div>
+    </div>
+    <header>
+      <a href="homePage.html">
+        <img class="black" src="../style/images/svg/back-arrow.svg" alt="">
+        <img class="white" src="../style/images/svg/back-arrow-white.svg" alt="">
+      </a>
+      <span class="uppercase-bold-1">Покупка</span>
+      <img src="../style/images/png/placeholder.png" alt="">
+    </header>
+    <article>
+      <!-- Version of site intended for PC -->
+      <section id="pc-version">
+        <div id="plug"><img src="../style/images/svg/plug.svg" alt=""></div>
+      </section>
+      <!-- Version of site intended for Phones -->
+      <section id="phone-version">
+        <div id="rate">
+          <div id="rateHeader" class="bold-3">Курс покупки vk-coins:</div>
+          <div id="purchaseRate">
+            <span class="regular-1">1руб - 9000</span>
+            <img src="../style/images/svg/coins-white.svg" alt="">
+          </div>
+        </div>
+        <div id="preview">
+          <input id="rub" name="rub" placeholder="руб" class="regular-1"></input>
+          <input id="coins" name="coins" placeholder="vk-coins" type="input" class="regular-1"></input>
+        </div>
+        <div id="method">
+          <div id="selectedItem">
+            <span id="nameOfMethod" class="regular-1">Способ оплаты</span>
+            <img src="../style/images/svg/arrow-down-blue.svg" alt="" id="arrow">
+          </div>
+          <ul id="listOfMethods" class="regular-1">
+            <li class="partOfMethodsList">Empty</li>
+            <li class="partOfMethodsList" id="1">Способ оплаты</li>
+            <li class="partOfMethodsList" id="2">Банковской картой</li>
+            <li class="partOfMethodsList" id="3">Яндекс Кошельком</li>
+            <li class="partOfMethodsList" id="4">Qiwi</li>
+          </ul>
+        </div>
+        <div id="button">
+          <button class="hugeButton">Продолжить</button>
+        </div>
+      </section>
+    </article>
+    <footer>
+      <a href=""><img src="../style/images/svg/home-selected.svg" alt=""></a>
+      <a href="../games/gamesPage.html"><img class="black" src="../style/images/svg/games.svg" alt=""><img class="white" src="../style/images/svg/games-white.svg" alt=""></a>
+      <a href="../mining/miningPage.html"><img class="black" src="../style/images/svg/mining.svg" alt=""><img class="white" src="../style/images/svg/mining-white.svg" alt=""></a>
+      <a href="../topcharts/topchartsPage.html"><img class="black" src="../style/images/svg/statistic.svg" alt=""><img class="white" src="../style/images/svg/statistic-white.svg" alt=""></a>
+    </footer>
+    <!-- Script running preloader -->
+    <script src="../scripts/preloader.js"></script>
+    <!-- Script calculate vk-coins cost and make dropdown list work -->
+    <script src="../scripts/getCoins.js"></script>
+    <!-- Script triggered bu turning on "night mode" -->
+    <script src="../scripts/nightMode.js"></script>
+  </body>
+</html>

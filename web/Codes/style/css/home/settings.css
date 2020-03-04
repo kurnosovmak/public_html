@@ -1,0 +1,95 @@
+@media screen and (max-width: 441px) {
+  #phone-version #settings {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 100%;
+  }
+
+  #phone-version #settings .settings-block div {
+    align-items: center;
+    border: solid 1px #707070;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6px;
+  }
+
+  #phone-version #settings .settings-block img {
+    width: 35%;
+  }
+
+  #phone-version #settings .settings-block {
+   	margin-bottom: 30px;
+    text-align: center;
+  }
+
+  #phone-version #settings .nightOn div {
+    border: solid 1px #04BEFE;
+  }
+
+  #phone-version #settings .soundOn div {
+    border: solid 1px #04BEFE;
+  }
+
+  #phone-version #settings .nightOff #nightFImg {
+    display: block;
+  }
+
+  #phone-version #settings .nightOff #nightSImg {
+    display: none;
+  }
+
+  #phone-version #settings .nightOn #nightFImg {
+    display: none;
+  }
+
+  #phone-version #settings .nightOn #nightSImg {
+    display: block;
+  }
+
+  #phone-version #settings .soundOff #soundFImg {
+    display: block;
+  }
+
+  #phone-version #settings .soundOff #soundSImg {
+    display: none;
+  }
+
+  #phone-version #settings .soundOn #soundFImg {
+    display: none;
+  }
+
+  #phone-version #settings .soundOn #soundSImg {
+    display: block;
+  }
+
+  #phone-version #aboutUs {
+    margin: auto;
+    width: 100%;
+  }
+
+  #phone-version #aboutUsHeader {
+    padding-bottom: 15px;
+  }
+
+  #phone-version #aboutUsList .partOfList {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+
+  #phone-version #aboutUsList .partOfList img {
+    height: 17px;
+    transform: rotate(-90deg);
+    width: 17px;
+  }
+
+  #phone-version #version {
+    margin: 25px auto 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+}

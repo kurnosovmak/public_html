@@ -1,0 +1,117 @@
+@media screen and (max-width: 441px) {
+  #phone-version #pageInfo {
+    margin: 10px auto 30px auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  #phone-version #accountPhoto {
+    border: solid 1px #707070;
+    border-radius: 40px;
+    height: 80px;
+    margin: 0 auto 10px auto;
+    overflow: hidden;
+    width: 80px;
+  }
+
+  #phone-version #accountPhoto img {
+    width: 100%;
+  }
+
+  #phone-version #friendsInGame #titleFriendsInGame {
+    margin-bottom: 10px;
+  }
+
+  #phone-version #friendsInGame #listOfFriends {
+    display: flex;
+    overflow: scroll;
+  }
+
+  #phone-version .slot {
+    padding-right: 20px;
+  }
+
+  #phone-version #friendsInGame .partOfList {
+    align-items: center;
+    display: flex;
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  #phone-version #friendsInGame .friendsPhoto {
+    border: solid 1px #707070;
+    border-radius: 20px;
+    height: 40px;
+    overflow: hidden;
+    width: 40px;
+  }
+
+  #phone-version #friendsInGame .friendsPhoto img {
+    width: 100%;
+  }
+
+  #phone-version #friendsInGame .photoAndIndiator {
+    height: 40px;
+    margin-right: 15px;
+    width: 40px;
+  }
+
+  #phone-version #friendsInGame .connectionIndicator {
+    background: #1FB302;
+    border: solid 1px #ffffff;
+    border-radius: 100%;
+    bottom: 8px;
+    width: 10px;
+    float: right;
+    height: 10px;
+    position: relative;
+  }
+
+  #phone-version #statistics #titleStatistics {
+    margin: auto;
+    padding: 20px 0 10px 0;
+    width: 100%;
+  }
+
+  #phone-version #statistics #statisticsList {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+  }
+
+  #phone-version #statistics #statisticsList .statisticsBlock {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 49%;
+  }
+
+  #phone-version #statistics #statisticsList .numOfCoins {
+    align-items: center;
+    display: flex;
+  }
+
+  #phone-version #statistics #statisticsList .stat img {
+    opacity: 0.6;
+  }
+
+  #phone-version #statistics #statisticsList .row {
+    align-items: center;
+    display: flex;
+    height: 60px;
+    justify-content: space-around;
+  }
+
+  #phone-version #statistics #statisticsList .row .verticalLine {
+    border-right: solid 1px rgba(112,112,112,0.2);
+    height: 45px;
+  }
+
+  #phone-version #statistics #statisticsList .row img {
+    height: 15px;
+    margin-left: 5px;
+    width: 15px;
+  }
+}

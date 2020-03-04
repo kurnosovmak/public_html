@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quick Coins</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <!-- Main Icon -->
+    <link rel="icon" href="../style/images/png/main-icon.png">
+    <!-- Theme styles -->
+    <link rel="stylesheet" href="../style/css/global.css">
+    <link rel="stylesheet" href="../style/css/games/roulette-pvp.css">
+    <link rel="stylesheet" href="../style/css/cross-platform.css">
+    <link rel="stylesheet" href="../style/css/nightMode.css">
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div id="page-preloader" class="preloader">
+      <div class='sk-three-bounce' id="loader">
+        <div class='sk-bounce-1 sk-child'></div>
+        <div class='sk-bounce-2 sk-child'></div>
+        <div class='sk-bounce-3 sk-child'></div>
+      </div>
+    </div>
+    <header>
+      <a href=""><img src="../style/images/svg/back-arrow-white.svg" alt=""></a>
+      <span class="uppercase-bold-1">рулетка pvp</span>
+      <img src="../style/images/png/placeholder.png" alt="">
+    </header>
+    <article>
+      <!-- Version of site intended for PC -->
+      <section id="pc-version">
+        <div id="plug"><img src="../style/images/svg/plug.svg" alt=""></div>
+      </section>
+      <!-- Version of site intended for Phones -->
+      <section id="phone-version">
+        <div id="roulette-body">
+          <img src="../style/images/svg/roulette-start.svg" id="roulette" alt="">
+          <canvas id="canvas1" width="180px" height="180px"></canvas>
+          <img src="../style/images/svg/roulette-arrow.svg" id="roulette-arrow" alt="">
+        </div>
+        <div id="players">
+          <div class="partOfList" id="first-player">
+            <div class="personsPhoto">
+              <img src="../style/images/svg/users-photo.svg" alt="">
+            </div>
+            <div class="personsInfo">
+              <div class="nameOfPerson bold-3">Виталий Архипов</div>
+              <div class="amountOfCoins">
+                <span class="regular-2">??????</span>
+                <img src="../style/images/svg/coins-white.svg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="partOfList" id="second-player">
+            <div class="personsPhoto">
+              <img src="../style/images/svg/users-photo.svg" alt="">
+            </div>
+            <div class="personsInfo">
+              <div class="nameOfPerson bold-3">Александр Филинков</div>
+              <div class="amountOfCoins">
+                <span class="regular-2">??????</span>
+                <img src="../style/images/svg/coins-white.svg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="partOfList" id="third-player">
+            <div class="personsPhoto">
+              <img src="../style/images/svg/users-photo.svg" alt="">
+            </div>
+            <div class="personsInfo">
+              <div class="nameOfPerson bold-3">Коновалов Николай</div>
+              <div class="amountOfCoins">
+                <span class="regular-2">??????</span>
+                <img src="../style/images/svg/coins-white.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="bet">
+          <div id="balance">
+            <span>Баланс:</span>
+            <div class="amountOfCoins">
+              <span>10110180,282</span>
+              <img src="../style/images/svg/coins.svg" alt="">
+            </div>
+          </div>
+          <div id="sumOfBet">
+            <input id="coins" name="coins" placeholder="0" class="regular-1"></input>
+          </div>
+        </div>
+        <button type="button" name="button" class="hugeButton" id="makeBet">Сделать ставку</button>
+      </section>
+      <section id="phone-games-bg">
+        <img src="../style/images/png/games-bg.png" alt="">
+      </section>
+    </article>
+    <footer>
+      <a href="../home/homePage.html"><img class="black" src="../style/images/svg/home.svg" alt=""><img class="white" src="../style/images/svg/home-white.svg" alt=""></a>
+      <a href=""><img src="../style/images/svg/games-selected.svg" alt=""></a>
+      <a href="../mining/miningPage.html"><img class="black" src="../style/images/svg/mining.svg" alt=""><img class="white" src="../style/images/svg/mining-white.svg" alt=""></a>
+      <a href="../topcharts/topchartsPage.html"><img class="black" src="../style/images/svg/statistic.svg" alt=""><img class="white" src="../style/images/svg/statistic-white.svg" alt=""></a>
+    </footer>
+    <!-- Script running preloader -->
+    <script src="../scripts/preloader.js"></script>
+    <!-- Script stand by roulette work -->
+    <script src="../scripts/roulette.js"></script>
+    <!-- Script triggered by turning on "night mode" -->
+    <script src="../scripts/nightMode.js"></script>
+  </body>
+</html>

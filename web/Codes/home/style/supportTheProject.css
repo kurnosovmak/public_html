@@ -1,0 +1,23 @@
+@media screen and (max-width: 376px) {
+  #phone-version  #text {
+    width: 315px;
+    margin: auto;
+  }
+
+  #phone-version  #text .mainHeader {
+    font-size: 18px;
+    font-family: SFProText-Semi;
+  }
+
+  #phone-version  #text .miniHeader {
+    font-family: SFProText-Semi;
+  }
+
+  #phone-version  #text p {
+    color: #323232;
+  }
+
+  #phone-version  #text button {
+
+  }
+}

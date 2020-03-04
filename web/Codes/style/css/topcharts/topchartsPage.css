@@ -1,0 +1,62 @@
+header {
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 441px) {
+  #phone-version #topPeople #topList {
+    display: flex;
+    overflow: scroll;
+  }
+
+  #phone-version #topPeople #topList a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  #phone-version .slot {
+    width: 100%;
+  }
+
+  #phone-version #topPeople .partOfList {
+    align-items: center;
+    display: flex;
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  #phone-version #topPeople .personsPhoto {
+    border: solid 1px #707070;
+    border-radius: 20px;
+    height: 40px;
+    overflow: hidden;
+    width: 40px;
+  }
+
+  #phone-version #topPeople .personsPhoto img {
+    width: 100%;
+  }
+
+  #phone-version #topPeople .fullInfo {
+    display: flex;
+  }
+
+  #phone-version #topPeople .topPlace {
+    margin: 0 10px;
+    position: absolute;
+  }
+
+  #phone-version #topPeople .personsInfo {
+    margin-left: 35px;
+  }
+
+  #phone-version #topPeople .amountOfCoins {
+    align-items: center;
+    display: flex;
+  }
+
+  #phone-version #topPeople .amountOfCoins img {
+    height: 15px;
+    margin-left: 5px;
+    width: 15px;
+  }
+}

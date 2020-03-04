@@ -1,0 +1,136 @@
+header {
+  background: none;
+
+  box-shadow: none;
+  color: #ffffff;
+}
+
+footer {
+  display: none;
+}
+
+@media screen and (max-width: 441px) {
+  #phone-games-bg {
+    top: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 5;
+    overflow: hidden;
+  }
+
+  #phone-games-bg img {
+    width: 100%;
+    height: 75vh;
+  }
+
+  #phone-version {
+    width: 100%;
+    position: relative;
+    z-index: 6;
+  }
+
+  #phone-version #roulette-body {
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  #phone-version #roulette-body #roulette {
+    width: 100%;
+  }
+
+  #phone-version #roulette-body #canvas1 {
+    text-align: center;
+    position: absolute;
+    z-index: 9;
+    top: 95px;
+    left: 50%;
+    margin-left: -28.5%;
+    transition: all 5s ease;
+  }
+
+  #phone-version #roulette-body #roulette-arrow {
+    position: absolute;
+    top: 70px;
+    z-index: 10;
+    left: 50%;
+    margin-left: -6.2%;
+    width: 40px;
+  }
+
+  #phone-version #players {
+    padding-top: 15px;
+  }
+
+  #phone-version .partOfList {
+    align-items: center;
+    display: flex;
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  #phone-version #first-player .personsPhoto {
+    border: solid 2px #F13D2F;
+  }
+
+  #phone-version #second-player .personsPhoto {
+    border: solid 2px #F9BA3D;
+  }
+
+  #phone-version #third-player .personsPhoto {
+    border: solid 2px #50D2DF;
+  }
+
+  #phone-version .personsPhoto {
+    border-radius: 20px;
+    height: 40px;
+    overflow: hidden;
+    width: 40px;
+  }
+
+  #phone-version .personsPhoto img {
+    width: 100%;
+  }
+
+  #phone-version .personsInfo {
+    margin-left: 35px;
+    color: #ffffff;
+  }
+
+  #phone-version .amountOfCoins {
+    align-items: center;
+    display: flex;
+  }
+
+  #phone-version .amountOfCoins img {
+    height: 15px;
+    margin-left: 5px;
+    width: 15px;
+  }
+
+  #phone-version #balance {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  #phone-version #bet {
+    margin-top: 70px;
+  }
+
+  #phone-version #sumOfBet input {
+    background: inherit;
+		border: solid 1px #707070;
+		border-radius: 10px;
+    overflow: hidden;
+		padding: 5px 10px;
+  	resize: none;
+  	width: 92.5%;
+    margin-top: 10px;
+  }
+
+  .hugeButton {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,92 @@
+/*------------------------------------------------------
+ * [List of content elements]
+ *
+ * 1.Main Components
+ * 2.Font
+ * 3.Images
+ *
+ *-------------------------------------------------------*/
+
+/*------------------- 1.Main Components -------------------*/
+.nightMode {
+  background: #0D0D0D;
+  color: #ffffff;
+}
+
+.nightMode header {
+  background: #1A1A1A;
+}
+
+.nightMode footer {
+  background: #1A1A1A;
+}
+
+.nightMode #page-preloader {
+  background: #0D0D0D;
+}
+
+.nightMode .menuBlock {
+  box-shadow: 2px 2px 7px rgba(255,255,255,0.3);
+}
+
+/*------------------- 1.Fonts -------------------*/
+.nightMode .bold-1 {
+  color: #ffffff;
+}
+
+.nightMode .bold-2 {
+  color: #ffffff;
+}
+
+.nightMode .bold-3 {
+  color: #ffffff;
+}
+
+.nightMode .bold-4 {
+  color: #ffffff;
+}
+
+.nightMode .regular-1 {
+  color: #ffffff;
+}
+
+.nightMode .regular-2 {
+  color: #ffffff;
+}
+
+.nightMode .regular-3 {
+  color: #ffffff;
+}
+
+.nightMode .uppercase-bold-1 {
+  color: #ffffff;
+}
+
+.nightMode .uppercase-bold-2 {
+  color: #ffffff;
+}
+
+.nightMode .uppercase-bold-3 {
+  color: #ffffff;
+}
+
+.nightMode a {
+  color: #ffffff;
+}
+
+.nightMode .grey {
+  color: #ffffff;
+}
+
+.nightMode .light-grey {
+  color: #aeaeae;
+}
+
+/*------------------- 3.Images -------------------*/
+.nightMode .black {
+  display: none;
+}
+
+.nightMode .white {
+  display: block;
+}

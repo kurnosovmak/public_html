@@ -1,0 +1,31 @@
+User-agent: *
+Disallow: /games/
+Disallow: /home/
+Disallow: /mining/
+Disallow: /topcharts/
+Disallow: /style/
+Disallow: /scripts/
+Allow: /index.html
+Crawl-Delay: 0.5
+
+User-agent: GoogleBot
+Disallow: /games/
+Disallow: /home/
+Disallow: /mining/
+Disallow: /topcharts/
+Allow: /style/
+Allow: /scripts/
+Allow: /index.html
+
+User-agent: YandexBot
+Disallow: /games/
+Disallow: /home/
+Disallow: /mining/
+Disallow: /topcharts/
+Allow: /style/
+Allow: /scripts/
+Allow: /index.html
+Crawl-Delay: 0.5
+
+Sitemap: https://quickcoins.ru/sitemap.xml
+Host: quickcoins.ru

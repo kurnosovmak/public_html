@@ -1,0 +1,130 @@
+@media screen and (max-width: 441px) {
+  header {
+    box-shadow: none;
+  }
+
+  #phone-version #fullInfo {
+    background-color: #ffffff;
+    box-shadow: 0 2px 7px 2px rgba(0,0,0,0.2);
+    height: 210px;
+    left: 0;
+    padding-top: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+  }
+
+  #phone-version #fullInfo #productInfo {
+    text-align: center;
+  }
+
+  #phone-version #fullInfo #productInfo img {
+    height: 100px;
+    width: 100px;
+  }
+
+  #phone-version #fullInfo #productPrice {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 15px 20px 0 20px;
+  }
+
+  .numOfCoins {
+    align-items: center;
+    display: flex;
+  }
+
+  .numOfCoins img {
+    height: 15px;
+    margin-left: 5px;
+    width: 15px;
+  }
+
+  #phone-version #contentOfProduct {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 225px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+  }
+
+  #phone-version #contentOfProduct .sticker{
+    padding-top: 15px;
+  }
+
+  #phone-version #contentOfProduct .sticker img {
+    height: 100px;
+    width: 100px;
+  }
+
+  #confirmation {
+    display: none;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+  }
+
+  #confirmation #bg {
+    align-items: center;
+    background-color: rgba(176,176,176,0.7);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #confirmation #confirmationContent {
+    background: #ffffff;
+    border: none;
+    border-radius: 15px;
+    height: 480px;
+    text-align: center;
+    width: 315px;
+  }
+
+  #confirmation #confirmationContent #question {
+    margin: 0 auto;
+    padding: 30px 0;
+    width: 250px;
+  }
+
+  #confirmation #confirmationContent #question img {
+    height: 100px;
+    margin-top: 15px;
+    width: 100px;
+  }
+
+  #confirmation #paymentInfo {
+    padding: 0 10px;
+  }
+
+  #confirmation .partOfList {
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 299px) and (max-width: 341px) {
+  #phone-version #contentOfProduct .sticker img {
+    height: 90px;
+    width: 90px;
+  }
+}
+
+.nightMode #phone-version #fullInfo {
+  background: #1A1A1A;
+}
+
+.nightMode #confirmation #confirmationContent {
+  background: #1A1A1A;
+}

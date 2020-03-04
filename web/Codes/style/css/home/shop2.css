@@ -1,0 +1,53 @@
+@media screen and (max-width: 441px) {
+  #phone-version a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  #phone-version #shopList {
+    margin: 0 auto;
+    padding-top: 5px;
+    width: 100%;
+  }
+
+  #phone-version .partOfList {
+    align-items: center;
+    display: flex;
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  #phone-version .productPhoto {
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    overflow: hidden;
+    width: 40px;
+  }
+
+  #phone-version .productInfo {
+    margin-left: 15px;
+  }
+
+  #phone-version .productPhoto img {
+    width: 100%;
+  }
+
+  #phone-version .numOfCoins {
+    align-items: center;
+    display: flex;
+  }
+
+  #phone-version .numOfCoins img {
+    height: 15px;
+    margin-left: 5px;
+    width: 15px;
+  }
+
+  #phone-version .infoAndButton {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
